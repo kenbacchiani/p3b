@@ -50,9 +50,7 @@ public class MyProfiler<K extends Comparable<K>, V> {
             // For example, Profile<Integer, Integer> profile = new Profile<Integer, Integer>();
             // execute the insert method of profile as many times as numElements
             // execute the retrieve method of profile as many times as numElements
-            // See, ProfileSample.java for example.
-            
-        
+            // See, ProfileSample.java for example.     
             String msg = String.format("Inserted and retreived %d (key,value) pairs", numElements);
             System.out.println(msg);
         }
