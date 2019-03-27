@@ -1,11 +1,17 @@
-
 /**
- * Project: p3b Hash Table
- * Due Date: March 14, 2019
- * Lecture: 002
- * Email: bacchiani@wisc.edu
- * @author kenbacchiani 
+ * Filename:   MyProfiler.java
+ * Project:    p3b-201901     
+ * Authors:    Ken Bacchiani, Lecture 002
+ *
+ * Semester:   Spring 2019
+ * Course:     CS400
  * 
+ * Due Date:   March 28, 2019 10pm
+ * Version:    1.0
+ * 
+ * Credits: https://www.oracle.com/technetwork/java/javaseproducts/mission-control/java-mission-control-1998576.html
+ * 
+ * Bugs:       
  */
 import static org.junit.jupiter.api.Assertions.*; // org.junit.Assert.*;
 import org.junit.jupiter.api.Assertions;
