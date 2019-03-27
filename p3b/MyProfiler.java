@@ -42,7 +42,7 @@ public class MyProfiler<K extends Comparable<K>, V> {
             int numElements = Integer.parseInt(args[0]);
             MyProfiler<Integer, Integer> profile = new MyProfiler<Integer, Integer>();
             for(int i=0; i < numElements; i++) {
-              profile.insert(i, i);
+              profile.insert(i, i+1);
             }
             for(int i =0; i < numElements; i++) {
               profile.retrieve(i);
